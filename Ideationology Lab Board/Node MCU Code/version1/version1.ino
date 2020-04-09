@@ -1,14 +1,5 @@
-#include <MD_Parola.h>
-#include <MD_MAX72xx.h>
-#include <SPI.h>
-#include <ESP8266WiFi.h>
-#include <DHT.h>
-
-
-#include "FirebaseESP8266.h"
-//#include <FirebaseArduino.h>
-#include "time.h";
-
+/////////I am not prviding the name of libraries here due to CopyRight issues/////////////
+////////If you interested in the full setup of this awsome project,feel free to contact Ideationology Lab Through our app//////////////// 
 
 //////////////Mention Your SSID,Password of Wifi and the firebase credentials////////////////////
 #define WIFI_SSID "$$$$$$$$"
@@ -136,18 +127,7 @@ void readSerial(void)
   }
 }
 
-String get_time(){
-
-  time_t now;
-  time(&now);
-  char time_output[30];
-  strftime(time_output, 30, "%d-%m-%y %T", localtime(&now));
-  return String(time_output);
-  
-    Serial.println("------------------------------------");
-
-
-}
+//////User created functions are missing/////////////////////////////
 
 void setup()
 {
@@ -196,116 +176,7 @@ void setup()
 
 void loop()
 {
-#if USE_UI_CONTROL
-  doUI();
-#endif // USE_UI_CONTROL
-    float h = dht.readHumidity();                                              // Reading temperature or humidity takes about 250 milliseconds!
-    float t = dht.readTemperature(); 
-    float g = analogRead(A0);
-   
-    
-
-  if (P.displayAnimate())
-  {
 
 
-     if (Firebase.pushFloat(firebaseData,"/user1/board1/smoke",get_time()+",smoke:"+String(g/1023*100)))
-    {
-      Serial.println("PASSED");
-      Serial.print(g);
-   
-      Serial.println("------------------------------------");
-      Serial.println();
-    }
-     if (Firebase.pushFloat(firebaseData,"/user1/board1/temperature",(t)))
-    {
-      Serial.println("PASSED");
-      Serial.print(t);
-   
-      Serial.println("------------------------------------");
-      Serial.println();
-    }
-    if (Firebase.pushFloat(firebaseData,"/user1/board1/humidity",(h)))
-    {
-      Serial.println("PASSED");
-      Serial.print(h);
-   
-      Serial.println("------------------------------------");
-      Serial.println();
-    }
-     if (Firebase.pushString(firebaseData,"/user1/board1/timestamp",get_time()))
-    {
-      Serial.println("PASSED");
-      Serial.print(get_time());
-   
-      Serial.println("------------------------------------");
-      Serial.println();
-    }
-    else
-    {
-      Serial.println("FAILED");
-      Serial.println("REASON: " + firebaseData.errorReason());
-      Serial.println("------------------------------------");
-      Serial.println();
-    }
-    
-
-
-
-
-
-// 
-      Serial.print("Humidity: ");  Serial.print(h);
-      String fireHumid = String(h) + String("%");  
-//    Firebase.setString("/Alert/Humi/",fireHumid);//convert integer humidity to string humidity 
-      Serial.print("%  Temperature: ");  Serial.print(t);  Serial.println("Â°C ");
-      String fireTemp = String(t) + String("Â°C"); 
-      Serial.print("Gas Level: "); Serial.print(g/1023*100);
-
-/////////////////Condition for temperature and smoke values/////////////////////////
-    if (t>35.00 || g>500){
-          digitalWrite(Buzz,HIGH);
-          Serial.println("BuzzerPrint");
-          String s = ("Alert");
-
-      int n = s.length();
-      char char_array[n+1];
-      int i;
-      strcpy(char_array,s.c_str());
-      strcpy(curMessage,char_array);
-      P.displayReset();
-      
-          }
-      else{
-        digitalWrite(Buzz,LOW);
-        Serial.println("Alert off");
-        
-     if (Firebase.getString(firebaseData,"/user1/board1/message"))
-    {
-
-      String s = (firebaseData.stringData());
-
-      int n = s.length();
-      char char_array[n+1];
-      int i;
-      strcpy(char_array,s.c_str());
-      strcpy(curMessage,char_array);
-      
-      Serial.println("PASSED");
-      Serial.println("VALUE: "+ s);
-
-               
-
-      Serial.println("------------------------------------");
-      Serial.println();
-       P.displayReset();                
-    }
-     
-        
-  }
-  }
-  readSerial();
-
-                     //setup path and send readings
-  }
-  
+  ///////////////////Void Loop is not Providing by the Owner///////////////////////
+}
