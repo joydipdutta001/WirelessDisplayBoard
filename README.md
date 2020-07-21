@@ -5,6 +5,12 @@
 -> Each Board can monitor the environmental conditions and also it will display the user's message. <br></br>
 -> One can control more than one board through the app.(You will find video of the Display Board in "iotprojects/Ideationology Lab Board/Sample Photos")**
 
+## What kind of Technologies I am using ? 🤔🤔
+
+** 1. Android Studio (Java),<br></br> 
+2. Arduino IDE (Development Board- ESP8266)
+3. Firebase Database.**
+
 ## Here are some layouts of the Application.
 
 <figure>
