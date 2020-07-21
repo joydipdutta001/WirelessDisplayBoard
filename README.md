@@ -6,7 +6,11 @@
 -> One can control more than one board through the app. 
 
 <img align='left' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/Console%201%20Sample.jpg" width='400' height='800'>
+**Layout of a Console**
 <img align='right' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/ConsolePage.jpg" width='400' height='800'>
+**Layout of Console Page**
 <br></br>
 <img align='left' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/DashBoard.jpg" width='400' height='800'>
+**Layout of Dashboard**
 <img align='right' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/NavigationDrawer.jpg" width='400' height='800'>
+**Layout of Navigation Drawer**
