@@ -5,4 +5,4 @@
 -> Each Board can monitor the environmental conditions and also it will display the user's message. 
 -> One can control more than one board through the app. 
 
-<img align='right' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/Console%201%20Sample.jpg" width='400' height='300'>
+<img align='right' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/Console%201%20Sample.jpg" width='400' height='800'>
