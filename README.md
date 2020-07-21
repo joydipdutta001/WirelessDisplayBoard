@@ -5,12 +5,12 @@
 -> Each Board can monitor the environmental conditions and also it will display the user's message. 
 -> One can control more than one board through the app. 
 
-<img align='left' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/Console%201%20Sample.jpg" width='400' height='800'>
-**Layout of a Console**
-<img align='right' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/ConsolePage.jpg" width='400' height='800'>
-**Layout of Console Page**
+<img align='left' title="Layout of a Console" src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/Console%201%20Sample.jpg" width='400' height='800'>
 <br></br>
-<img align='left' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/DashBoard.jpg" width='400' height='800'>
-**Layout of Dashboard**
-<img align='right' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/NavigationDrawer.jpg" width='400' height='800'>
-**Layout of Navigation Drawer**
+<img align='right' title="Layout of Console Page" src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/ConsolePage.jpg" width='400' height='800'>
+
+<br></br>
+<img align='left' title="Layout of a Dashboard" src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/DashBoard.jpg" width='400' height='800'>
+<br></br>
+<img align='right' title="Layout of a Navigation Drawer" src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/NavigationDrawer.jpg" width='400' height='800'>
+
