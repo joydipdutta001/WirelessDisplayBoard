@@ -7,9 +7,7 @@
 
 ## What kind of Technologies I am using ? 🤔🤔
 
-** 1. Android Studio (Java),<br></br> 
-2. Arduino IDE (Development Board- ESP8266)
-3. Firebase Database.**
+**1. Android Studio (Java)<br></br>2. Arduino IDE (Development Board- ESP8266)<br></br>3. Firebase Database.**
 
 ## Here are some layouts of the Application.
 
