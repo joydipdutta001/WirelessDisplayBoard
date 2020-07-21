@@ -7,26 +7,26 @@
 
 <figure>
     <img align='left' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/Console%201%20Sample.jpg" width='400' height='800'>
-    <figcaption>Layout of a Console</figcaption>
+
 </figure>
 
 <br></br>
 <figure>
     <img align='right' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/ConsolePage.jpg" width='400' height='800'>
-    <figcaption>Layout of Console Page</figcaption>
+
 </figure>
 
 
 <br></br>
 <figure>
     <img align='left' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/DashBoard.jpg" width='400' height='800'>
-    <figcaption>Layout of a Dashboard</figcaption>
+  
 </figure>
 
 <br></br>
 <figure>
     <img align='right' src="https://github.com/joydipdutta001/iotprojects/blob/master/Ideationology%20Lab%20Board/Sample%20Photos/AppLayoutPhotos/NavigationDrawer.jpg" width='400' height='800'>
-    <figcaption>Layout of a Navigation Drawer</figcaption>
+  
 </figure>
 
 
